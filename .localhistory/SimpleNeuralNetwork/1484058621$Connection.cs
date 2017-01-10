@@ -1,0 +1,7 @@
+﻿namespace SimpleNeuralNetwork
+{
+    class Connection
+    {
+
+    }
+}
