@@ -3,7 +3,7 @@
     class Connection
     {
         public Neuron Neuron { get; }
-        public double Weight { get; set; }
+        public double Weight { get; set; } = RNG.NextDouble();
 
         public Connection(Neuron neuron)
         {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SimpleNeuralNetwork
+﻿namespace SimpleNeuralNetwork
 {
     class Layer
     {
