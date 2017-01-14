@@ -4,7 +4,7 @@
     {
         private Connection[] _connections;
 
-        public double Output { get; set; }
+        public Neuron() { }
 
         public Neuron(Layer previous)
         {
@@ -13,8 +13,6 @@
             {
                 _connections[i] = new Connection(previous.Neurons[i]);
             }
-
-
         }
     }
 }

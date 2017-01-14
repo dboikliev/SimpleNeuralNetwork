@@ -2,12 +2,11 @@
 {
     class Connection
     {
-        public Neuron Neuron { get; }
-        public double Weight { get; set; }
+        private Neuron _neuron;
 
         public Connection(Neuron neuron)
         {
-            Neuron = neuron;
+            _neuron = neuron;
         }
     }
 }

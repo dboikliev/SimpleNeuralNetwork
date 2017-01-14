@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SimpleNeuralNetwork
+﻿namespace SimpleNeuralNetwork
 {
     class Layer
     {
@@ -9,12 +7,11 @@ namespace SimpleNeuralNetwork
         public Layer(int size, Layer previous = null)
         {
             Neurons = new Neuron[size + 1];
-            for (int i = 0; i < Neurons.Length - 1; i++)
+
+            for (int i = 0; i < Neurons.Length; i++)
             {
                 Neurons[i] = new Neuron(previous);
             }
-
-            Neurons[Neurons.Length - 1] = new Neuron();
         }
     }
 }
